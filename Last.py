@@ -14,7 +14,7 @@ TELEGRAM_TOKEN = "8788783011:AAFWfn213e4UEn3E954XM9kBxa3MK8yjHC4"
 CHAT_ID = "8210798076"
 
 # DroidCam 스트리밍 URL 설정
-DROIDCAM_URL = cv2.VideoCapture("http://172.30.1.25:4747/video")
+DROIDCAM_URL = "http://172.30.1.25:4747/video"
 
 # ==========================================
 # 2. AI 모델 불러오기 (수업 자료 파일 마지막 페이지 코드 그대로 반영)
