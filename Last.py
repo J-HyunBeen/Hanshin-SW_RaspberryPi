@@ -10,11 +10,11 @@ from gpiozero import MotionSensor
 pir = MotionSensor(16)
 
 # [Section 7] 텔레그램 봇 설정 (수업 시간 기본 방식)
-TELEGRAM_TOKEN = "여기에_본인의_텔레그램_봇_토큰_입력"
-CHAT_ID = "여기에_본인의_텔레그램_CHAT_ID_입력"
+TELEGRAM_TOKEN = "8788783011:AAFWfn213e4UEn3E954XM9kBxa3MK8yjHC4"
+CHAT_ID = "8210798076"
 
 # DroidCam 스트리밍 URL 설정
-DROIDCAM_URL = "http://192.168.0.50:4747/video" 
+DROIDCAM_URL = cv2.VideoCapture("http://172.30.1.25:4747/video")
 
 # ==========================================
 # 2. AI 모델 불러오기 (수업 자료 파일 마지막 페이지 코드 그대로 반영)
